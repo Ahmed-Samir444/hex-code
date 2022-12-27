@@ -48,9 +48,26 @@ hexDesc.appendChild(hexDescText)
 // styling for hexDesc
 hexDesc.style.cssText = "font-size: 20px; text-align: center; padding: 20px 0; color: #777;";
 
-
 // add hexDesc to container
 container.appendChild(hexDesc);
+
+// create changeBtn
+let changeBtn = document.createElement("button");
+
+let changeBtnText = document.createTextNode("Change Color");
+
+changeBtn.appendChild(changeBtnText);
+
+// styling for changeBtn
+changeBtn.style.cssText = "display: block; color: #777; margin: auto; cursor: pointer; background-color: #fff; width: 140px; font-weight: bold; height: 50px; line-height: 40px; border-radius: 10px; text-align: center;";
+
+// change hex color code
+changeBtn.onclick = function () {
+    window.location.reload();
+}
+
+// add changeBtn to container
+container.appendChild(changeBtn);
 
 
 
