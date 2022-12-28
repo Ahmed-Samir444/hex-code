@@ -69,25 +69,6 @@ changeBtn.onclick = function () {
 // add changeBtn to container
 container.appendChild(changeBtn);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // styling for body
 document.body.style.cssText = "background-color: #E8EAED;"
 
